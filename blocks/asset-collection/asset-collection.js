@@ -45,4 +45,6 @@ export default function decorate(block) {
     cta.textContent = 'See Full Collection in Content Hub';
     block.appendChild(cta);
   }*/
+
+  console.log(`Asset Collection: ${block.dataset}`);
 }
