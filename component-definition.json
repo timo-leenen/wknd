@@ -868,6 +868,20 @@
           }
         },
         {
+          "id": "asset-collection",
+          "title": "Asset Collection",
+          "icon": "Collection",
+          "modelId": "asset-collection",
+          "category": "Media",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block"
+              }
+            }
+          }
+        },
+        {
           "...": "../blocks/*/_*.json#/definitions"
         }
       ]

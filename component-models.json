@@ -6474,5 +6474,28 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "asset-collection",
+    "fields": [
+      {
+        "component": "reference-list",
+        "valueType": "array",
+        "name": "approvedAssets",
+        "label": "Select Collection (Approved Assets)",
+        "configUrl": "/tools/asset-selector/collections.config.json",
+        "assetType": "image"
+      },
+      {
+        "component": "text",
+        "name": "collectionTitle",
+        "label": "Collection Title"
+      },
+      {
+        "component": "url",
+        "name": "contentHubUrl",
+        "label": "Content Hub Collection Link"
+      }
+    ]
   }
 ]
