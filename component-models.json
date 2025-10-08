@@ -6483,13 +6483,13 @@
         "valueType": "string",
         "name": "approvedAssets",
         "label": "Select Collection (Approved Assets)",
-        "configUrl": "https://feat-asset-collection--wknd--timo-leenen.aem.page/tools/asset-selector/collections.config.json",
-        "assetType": "image"
+        "configUrl": "https://feat-asset-collection--wknd--timo-leenen.aem.page/tools/asset-selector/collections.config.json"
       },
       {
         "component": "text",
         "name": "collectionTitle",
-        "label": "Collection Title"
+        "label": "Collection Title",
+        "valueType": "string"
       }
     ]
   }

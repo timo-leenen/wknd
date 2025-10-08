@@ -46,5 +46,25 @@ export default function decorate(block) {
     block.appendChild(cta);
   }*/
 
-  console.log(`Asset Collection: ${block.dataset}`);
+  console.log(`Asset Collection`);
+  console.log(block.dataset);
+
+  if (block.dataset && block.dataset.blockStatus !== "loading") {
+    console.log(block.dataset);
+    console.log(block.dataset.approvedAssets);
+  }
+
+  //block.dataset.blockstatus !=
+
+  /*
+  block.dataset -->
+    aueBehavior: "component"
+    aueLabel: "Asset collection"
+    aueModel: "asset-collection"
+    aueResource: "urn:aemconnection:/content/wknd-eds-playground/language-masters/en/jcr:content/root/section_1112819042/block_425709397"
+    aueType: "component"
+    blockName: "asset-collection"
+    blockStatus: "loading"
+<--
+   */
 }
