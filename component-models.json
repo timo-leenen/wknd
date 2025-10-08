@@ -6479,22 +6479,17 @@
     "id": "asset-collection",
     "fields": [
       {
-        "component": "reference-list",
-        "valueType": "array",
+        "component": "custom-asset-namespace:custom-asset",
+        "valueType": "string",
         "name": "approvedAssets",
         "label": "Select Collection (Approved Assets)",
-        "configUrl": "/tools/asset-selector/collections.config.json",
+        "configUrl": "https://feat-asset-collection--wknd--timo-leenen.aem.page/tools/asset-selector/collections.config.json",
         "assetType": "image"
       },
       {
         "component": "text",
         "name": "collectionTitle",
         "label": "Collection Title"
-      },
-      {
-        "component": "url",
-        "name": "contentHubUrl",
-        "label": "Content Hub Collection Link"
       }
     ]
   }
