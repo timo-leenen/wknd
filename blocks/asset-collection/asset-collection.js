@@ -1,6 +1,6 @@
 export default function decorate(block) {
   // Universal Editor injects block config as dataset or you can fetch as meta-data, depending on setup
-  const assets = block.dataset.approvedAssets ? JSON.parse(block.dataset.approvedAssets) : [];
+  /*const assets = block.dataset.approvedAssets ? JSON.parse(block.dataset.approvedAssets) : [];
   const title = block.dataset.collectionTitle || '';
   const contentHubUrl = block.dataset.contentHubUrl || '#';
 
@@ -44,5 +44,5 @@ export default function decorate(block) {
     cta.rel = 'noopener noreferrer';
     cta.textContent = 'See Full Collection in Content Hub';
     block.appendChild(cta);
-  }
+  }*/
 }
